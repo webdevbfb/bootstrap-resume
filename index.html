@@ -4,33 +4,172 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <script src="https://kit.fontawesome.com/e1e1d8b43e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e1e1d8b43e.js"
+      crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous" />
   </head>
-  <body>
-    <section>
-      <img src="" alt="" />
-      <div>
-        <h3>Bilal Faik Bagci</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          necessitatibus, adipisci maxime ab incidunt, commodi sed consequatur
-          explicabo minus voluptatem, velit doloremque natus ducimus. Rerum.
-        </p>
+
+  <body class="bg-body-secondary">
+
+    <main class="container my-3">
+
+      <div class="row">
+
+        <section class="col-12 mb-3">
+            <div class="row bg-white rounded p-2">
+                <div class="d-flex justify-content-center align-items-center col-3 p-2">
+                    <!-- Hier kommt dein Bild -->
+                    <img
+                    class="rounded-circle img-fluid"
+                    src="./images/profilbild.png"
+                    alt="profilbild"
+                    height="200px"
+                    width="200px" />
+                </div>
+    
+                <div class="d-flex flex-column col-5 justify-content-center">
+                    <!-- Hier kommt dein Textinhalt -->
+                    <div>
+                        
+                        <h3 class="mb-3">Bilal Faik Bagci</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Temporibus necessitatibus, adipisci maxime ab incidunt, commodi
+                            sed consequatur explicabo minus voluptatem, velit doloremque natus
+                            ducimus. Rerum.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column col-4 justify-content-center pt-2">
+                    <!-- Hier kommt deine Liste -->
+                    <ul class="list-unstyled">
+                        <li class="p-1"><i class="fa-solid fa-desktop"></i><a class="text-decoration-none p-2" href="#">Portfolio</a></li>
+                        <li class="p-1"><i class="fa-solid fa-pen"></i><a class="text-decoration-none p-2" href="#">Technical Blog</a></li>
+                        <li class="p-1"><i class="fa-solid fa-envelope"></i><a class="text-decoration-none p-2" href="#">bilal.bagci@dci-student.org</a></li>
+                        <li class="p-1"><i class="fa-solid fa-phone"></i> +4917678910123</li>
+                        <li class="p-1"><i class="fa-regular fa-comment"></i> Turkish (native), German (fluent), English (school knowledge)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="col-6 mb-3">
+            <div class="row bg-white rounded p-2 h-100">
+                    <h3>Skills</h3>
+                    <div class="col-4">
+                      <ul class="list-unstyled">
+                        <h6>Frontend</h6>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>Css (+SCSS)</li>
+                        <li>Bootstrap</li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <ul class="list-unstyled">
+                        <h6>Backtend</h6>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                      </ul>
+                    </div>
+                    <div class="col-4">
+                      <ul class="list-unstyled">
+                        <h6>Other</h6>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                      </ul>
+                    </div>
+            </div>
+        </section>
+
+        <section class="col-6 mb-3">
+            <div class="bg-white rounded p-2 h-100">
+                <div>
+                    <h3>Certifications</h3>
+                    <div>
+                      <p><i class="fa-brands fa-linkedin" style="color: #1a99f9;"></i> LinkedIn Skill Assessment achieved if scored in top 30% of all
+                          who took the test in <br>
+                          PHP, CSS, JavaScript, HTML, Front-End Development, Object-
+                          Oriented Programming</p>
+                    <div>
+                      <p><i class="fa-solid fa-microchip"></i> freeCodeCamp developer certification</p>
+                      <ul>
+                        <li>JavaScript algorithms and data structures</li>
+                        <li>Responsive Web Design</li>
+                        <li>APIs and Microservices</li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section class="col-12 mb-3">
+            <div class="bg-white rounded p-2">
+                <div>
+                    <h3 class="mb-3">Experience</h3>
+                    <h6>von – bis, Location</h6>
+                    <h6>Job Titel, Firma</h6>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, excepturi.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis?</li>
+                    </ul>          
+                </div>
+                <div>
+                    <h6>von – bis, Location</h6>
+                    <h6>Job Titel, Firma</h6>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, excepturi.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis?</li>
+                    </ul>          
+                </div>
+                <div>
+                    <h6>von – bis, Location</h6>
+                    <h6>Job Titel, Firma</h6>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, excepturi.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    </ul>          
+                </div>
+                <div>
+                    <h6>von – bis, Location</h6>
+                    <h6>Job Titel, Firma</h6>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, excepturi.</li>
+                    </ul>          
+                </div>
+            </div>
+        </section>
+
+        <section class="col-12 mb-3">
+            <div class="bg-white rounded p-2">
+                <div>
+                    <h3 class="mb-3">Education</h3>
+                    <h6>10/2021 - 10/2024</h6>
+                    <h6>Was, Wo</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
       </div>
-      <div>
-        <ul class="list-group">
-            <li><i class="fa-solid fa-desktop"></i><a class="text-decoration-none p-2" href="#">Portfolio</a></li>
-            <li><i class="fa-solid fa-pen"></i><a class="text-decoration-none p-2" href="#">Technical Blog</a></li>
-            <li><i class="fa-solid fa-envelope"></i><a class="text-decoration-none p-2" href="#">bilal.bagci@dci-student.org</a></li>
-            <li><i class="fa-solid fa-phone"></i> +4917678910123</li>
-            <li><i class="fa-regular fa-comment"></i> Turkish (native), German (fluent), English (school knowledge)</li>
-        </ul>
-      </div>
-    </section>
+
+    </main>
+
   </body>
 </html>
